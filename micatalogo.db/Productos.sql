@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Productos]
+(
+	[ProductoID] BIGINT NOT NULL PRIMARY KEY IDENTITY, 
+    [Nombre] VARCHAR(200) NOT NULL, 
+    [Descripcion] VARCHAR(1000) NOT NULL DEFAULT '', 
+    [Stock] INT NOT NULL DEFAULT 0
+)
